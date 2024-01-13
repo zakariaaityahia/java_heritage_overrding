@@ -1,11 +1,11 @@
 public class Voiture extends Vehicule{
     private String model;
-    private int anne;
+    private String year;
 
-    public Voiture(String nom, double prix, String model, int anne) {
+    public Voiture(String nom, double prix, String model, String year) {
         super(nom, prix);
         this.model = model;
-        this.anne = anne;
+        this.year = year;
     }
 
     public String getModel() {
@@ -16,12 +16,12 @@ public class Voiture extends Vehicule{
         this.model = model;
     }
 
-    public int getAnne() {
-        return anne;
+    public String getYear() {
+        return year;
     }
 
-    public void setAnne(int anne) {
-        this.anne = anne;
+    public void setYear(String year) {
+        this.year = year;
     }
 
     public void emettreSon() {
@@ -30,6 +30,6 @@ public class Voiture extends Vehicule{
 
     public void afficherInformations() {
         super.afficherInformations();
-        System.out.println("Model: " + model + " anne :" + anne);
+        System.out.println("Model: " + model + " | year :" + year);
     }
 }

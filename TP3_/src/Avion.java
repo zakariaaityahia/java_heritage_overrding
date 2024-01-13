@@ -31,6 +31,6 @@ public class Avion extends Vehicule{
 
     public void afficherInformations() {
         super.afficherInformations();
-        System.out.println("companie: " + compagnie + " vitesse max :" + vitesseMax);
+        System.out.println("companie: " + compagnie + " | vitesse max :" + vitesseMax);
     }
 }

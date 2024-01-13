@@ -32,6 +32,6 @@ public class Moto extends Vehicule{
 
     public void afficherInformations() {
         super.afficherInformations();
-        System.out.println("Marque: " + marque + " puissance :" + puissance);
+        System.out.println("Marque: " + marque + " | puissance :" + puissance);
     }
 }

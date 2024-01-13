@@ -1,6 +1,6 @@
 public class Application {
     public static void main(String[] args) {
-        Voiture v1 = new Voiture("Volkswagen", 250000, "jeeta", 2017);
+        Voiture v1 = new Voiture("Volkswagen", 250000, "jeeta", "2017");
         Moto m1 = new Moto("benelli", 60000, "Leoncina", "TRC");
         Avion a1 =  new Avion("boing 747", 4148173016.87, "Boing", 920);
 
