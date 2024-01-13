@@ -2,9 +2,7 @@ public class Moto extends Vehicule{
     private String marque;
     private String puissance;
 
-    public Moto(String nom, double prix) {
-        super(nom, prix);
-    }
+
 
     public Moto(String nom, double prix, String marque, String puissance) {
         super(nom, prix);
@@ -30,5 +28,10 @@ public class Moto extends Vehicule{
 
     public void emettreSon() {
         System.out.println("La moto rugit.");
+    }
+
+    public void afficherInformations() {
+        super.afficherInformations();
+        System.out.println("Marque: " + marque + " puissance :" + puissance);
     }
 }

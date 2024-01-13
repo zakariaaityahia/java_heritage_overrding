@@ -30,7 +30,7 @@ public class Vehicule {
 
 
     public void afficherInformations() {
-        System.out.println("le nom : " + this.nom + " le prix : " + this.prix);
+        System.out.println("le nom : " + this.nom + "  |" +" le prix : " + this.prix);
     }
 
 }

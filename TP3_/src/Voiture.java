@@ -2,10 +2,6 @@ public class Voiture extends Vehicule{
     private String model;
     private int anne;
 
-    public Voiture(String nom, double prix) {
-        super(nom, prix);
-    }
-
     public Voiture(String nom, double prix, String model, int anne) {
         super(nom, prix);
         this.model = model;
@@ -30,5 +26,10 @@ public class Voiture extends Vehicule{
 
     public void emettreSon() {
         System.out.println("La voiture vrombit.");
+    }
+
+    public void afficherInformations() {
+        super.afficherInformations();
+        System.out.println("Model: " + model + " anne :" + anne);
     }
 }
