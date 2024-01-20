@@ -32,4 +32,11 @@ public class Voiture extends Vehicule{
         super.afficherInformations();
         System.out.println("Model: " + model + " | year :" + year);
     }
+
+    @Override
+    public String toString() {
+        return "Voiture " +
+                "model='" + model + '\'' +
+                ", year='" + year + '\'';
+    }
 }
