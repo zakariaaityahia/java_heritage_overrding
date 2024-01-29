@@ -16,3 +16,8 @@ les classes **abstraites** / **heritage ,** surcharge
 
 <img src="tp5.PNG">
 <br>
+
+<h3>TP 6 // interfaces</h3>
+
+<img src="tp_6.PNG">
+<br>
